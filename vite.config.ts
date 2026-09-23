@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/dashboard-maxima-demanda-v4/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
